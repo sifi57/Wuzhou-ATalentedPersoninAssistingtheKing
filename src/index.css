@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-game-bg: #0f0d0c;
+  --color-game-panel: rgba(20, 18, 16, 0.8);
+  --color-game-header: #1c1713;
+  --color-game-border: #5c4b3a;
+  --color-game-border-light: #3d352b;
+  --color-game-text: #e6dcc8;
+  --color-game-gold: #d4af37;
+  --color-game-muted: #b0a494;
+  --color-game-card: #2a2520;
+  --color-game-red: #c41e3a;
+  --font-sans: 'SimSun', 'STSong', 'PMingLiU', serif;
+  --font-serif: 'KaiTi', 'STKaiti', 'BiauKai', serif;
+}
+
+body {
+  background-color: var(--color-game-bg);
+  color: var(--color-game-text);
+  font-family: var(--font-sans);
+}
